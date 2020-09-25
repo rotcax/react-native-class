@@ -1,9 +1,10 @@
 import { DECREMENT, INCREMENT } from './action-types';
 
-export const increment = (count: number = 0) => {
+export const increment = (count: number = 0) => {    
+    const sum = count + 1;
     return {
         type: INCREMENT,
-        payload: count + 1
+        payload: sum
     }
 }
 

@@ -3,7 +3,7 @@ const styles: any = {
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundColor: 'gray'
+        backgroundColor: '#FFF'
     }
 }
 
